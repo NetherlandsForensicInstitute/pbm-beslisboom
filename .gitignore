@@ -36,3 +36,6 @@ Thumbs.db
 # Claude stuff
 .claude
 CLAUDE.md
+
+# Images
+*.png

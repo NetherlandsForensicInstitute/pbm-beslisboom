@@ -6,7 +6,7 @@ Pas altijd **dat** bestand aan, niet dit document direct.
 
 ---
 
-## Standaard verplicht bij betreden laboratorium (NF)
+## Standaard verplicht bij betreden laboratorium (NFI)
 
 Ongeacht het scenario zijn altijd verplicht:
 - Labjas

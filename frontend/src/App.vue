@@ -3,5 +3,5 @@ import BeslisboomForm from '@/components/BeslisboomForm.vue'
 </script>
 
 <template>
-  <BeslisboomForm class="rvo-theme" />
+  <BeslisboomForm class="rvo-theme utrecht-document" />
 </template>

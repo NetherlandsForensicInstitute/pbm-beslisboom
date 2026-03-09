@@ -1,7 +1,7 @@
 # PBM Beslisboom
 
 Interactieve beslisboom voor laboratoriummedewerkers bij het selecteren van
-persoonlijke beschermingsmiddelen (PBM) voor het NF-laboratorium.
+persoonlijke beschermingsmiddelen (PBM) voor het NFI-laboratorium.
 
 De applicatie ondersteunt medewerkers bij het zelfstandig en onderbouwd kiezen
 van de juiste PBM's bij het werken met:
@@ -19,7 +19,7 @@ van de juiste PBM's bij het werken met:
 ## Gebruik
 
 De applicatie draait via GitHub Pages op:
-`https://<github-gebruikersnaam>.github.io/pbm-beslisboom/`
+`https://netherlandsforensicinstitute.github.io/pbm-beslisboom/`
 
 GitHub Pages activeren:
 1. Ga naar **Settings → Pages** in je repository
