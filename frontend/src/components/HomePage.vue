@@ -32,7 +32,7 @@ const emit = defineEmits(['start'])
               </div>
 
               <p class="utrecht-paragraph">
-                <strong>Standaard verplicht bij betreden laboratorium (NF):</strong>
+                <strong>Standaard verplicht bij betreden laboratorium (NFI):</strong>
               </p>
               <ul class="rvo-ul">
                 <li>Labjas</li>
