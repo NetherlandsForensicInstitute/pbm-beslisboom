@@ -8,7 +8,7 @@
   >
     <p class="utrecht-paragraph">
       <a
-        href="https://github.com/nederlandsforensischinstituut/pbm-beslisboom"
+        href="https://github.com/NetherlandsForensicInstitute/pbm-beslisboom"
         target="_blank"
         rel="noopener noreferrer"
         class="rvo-link"
