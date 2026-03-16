@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import BetaversionLabel from '@/components/BetaversionLabel.vue'
+
 interface Props {
   isHome: boolean
 }
@@ -14,6 +16,9 @@ const emit = defineEmits(['reset'])
         <div class="rvo-max-width-layout rvo-max-width-layout--md rvo-max-width-layout-inline-padding--sm">
           <nav class="rvo-topnav rvo-topnav--lg">
             <ul class="rvo-topnav__list">
+              <li class="rvo-topnav__item" style="margin-right: auto">
+                <BetaversionLabel />
+              </li>
               <li v-if="!isHome" class="rvo-topnav__item">
                 <a
                   class="rvo-link rvo-topnav__link rvo-link--logoblauw"
