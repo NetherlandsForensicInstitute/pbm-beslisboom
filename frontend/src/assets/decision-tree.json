@@ -7,9 +7,15 @@
       "question": "Voor welk scenario wordt een PBM gezocht?",
       "explanation": "Selecteer het scenario dat van toepassing is op jouw werkzaamheden. Let op: voor het betreden van een laboratorium zijn standaard al verplicht: labjas, gesloten schoenen, haren vast (bij schouderlengtes) en bedekkende kleding. Deze beslisboom bepaalt welke aanvullende PBM's nodig zijn.\n",
       "category": "voorbereiding",
+      "sources": [
+        {
+          "source": "Nederlands Forensisch Instituut (NFI)",
+          "url": "https://www.nfi.nl"
+        }
+      ],
       "answers": [
         {
-          "answer": "Gevaarlijke stoffen (chemicaliën / nevenproducten)",
+          "answer": "Gevaarlijke stoffen (chemicali\u00ebn / nevenproducten)",
           "nextQuestionId": "1"
         },
         {
@@ -52,7 +58,7 @@
     },
     {
       "questionId": "2",
-      "question": "Heb je sectie 2 (Gevarenidentificatie) én sectie 8 (Maatregelen ter beheersing van blootstelling/PBM) van het SDS gelezen?",
+      "question": "Heb je sectie 2 (Gevarenidentificatie) \u00e9n sectie 8 (Maatregelen ter beheersing van blootstelling/PBM) van het SDS gelezen?",
       "explanation": "Sectie 2 beschrijft de gevaarseigenschappen van de stof (bijv. ontvlambaar, irriterend, corrosief). Sectie 8 beschrijft de beheersmaatregelen en specifiek welke PBM's vereist zijn voor veilig werken.\n",
       "category": "gevaarlijke_stoffen",
       "answers": [
@@ -100,7 +106,7 @@
     },
     {
       "questionId": "5",
-      "question": "Is de geluidsbron hoger dan 85 dB én duurt de blootstelling langer dan 1 uur?",
+      "question": "Is de geluidsbron hoger dan 85 dB \u00e9n duurt de blootstelling langer dan 1 uur?",
       "explanation": "Bij langdurige blootstelling aan geluidsniveaus boven 85 dB is een professionele beoordeling en advies van KAM centraal of de preventiemedewerker vereist.\n",
       "category": "geluid",
       "answers": [
@@ -116,8 +122,8 @@
     },
     {
       "questionId": "6",
-      "question": "Zijn alle volgende voorwaarden aanwezig: een ESD werkmat, een geaard werkstation én een luchtvochtigheid hoger dan 30%?",
-      "explanation": "Deze drie voorwaarden zijn verplicht vóórdat je met ESD-gevoelige apparatuur of stoffen die gevoelig zijn voor statische ontlading (zoals explosief materiaal) mag werken.\n",
+      "question": "Zijn alle volgende voorwaarden aanwezig: een ESD werkmat, een geaard werkstation \u00e9n een luchtvochtigheid hoger dan 30%?",
+      "explanation": "Deze drie voorwaarden zijn verplicht v\u00f3\u00f3rdat je met ESD-gevoelige apparatuur of stoffen die gevoelig zijn voor statische ontlading (zoals explosief materiaal) mag werken.\n",
       "category": "esd",
       "answers": [
         {
@@ -187,79 +193,79 @@
     {
       "conclusionId": "geen_pbm",
       "conclusion": "Geen aanvullende PBM's noodzakelijk",
-      "obligation": "Op basis van jouw antwoorden zijn er geen aanvullende persoonlijke beschermingsmiddelen vereist bovenop de standaard verplichte labkleding (labjas, gesloten schoenen, bedekkende kleding).\nVergeet niet de standaard PBM's te controleren op beschadigingen vóór gebruik.\n",
+      "obligation": "Op basis van jouw antwoorden zijn er geen aanvullende persoonlijke beschermingsmiddelen vereist bovenop de standaard verplichte labkleding (labjas, gesloten schoenen, bedekkende kleding).\nVergeet niet de standaard PBM's te controleren op beschadigingen v\u00f3\u00f3r gebruik.\n",
       "sources": []
     },
     {
       "conclusionId": "sds_ontbreekt",
-      "conclusion": "Werkzaamheden niet starten – SDS ontbreekt",
+      "conclusion": "Werkzaamheden niet starten \u2013 SDS ontbreekt",
       "obligation": "Er is geen actueel Veiligheidsinformatieblad (SDS) beschikbaar voor de stof waarmee je wilt werken. Werkzaamheden mogen niet worden gestart.\nActie vereist: 1. Vraag het SDS op bij de leverancier of intern (bijv. via de afdeling KAM). 2. Lees rubriek 8 (Maatregelen ter beheersing van blootstelling/PBM) zorgvuldig door. 3. Start pas met de werkzaamheden nadat je het SDS hebt gelezen en de juiste PBM's hebt geselecteerd.\n",
       "sources": []
     },
     {
       "conclusionId": "sds_niet_gelezen",
-      "conclusion": "Eerst het SDS lezen vóór je start",
+      "conclusion": "Eerst het SDS lezen v\u00f3\u00f3r je start",
       "obligation": "Je hebt sectie 2 en/of sectie 8 van het SDS nog niet gelezen. Dit is verplicht voordat je met de stof mag werken.\nActie vereist: - Lees sectie 2 (Gevarenidentificatie) - Lees sectie 8 (Maatregelen ter beheersing van blootstelling / PBM)\nStart pas daarna met de werkzaamheden.\n",
       "sources": []
     },
     {
       "conclusionId": "sds_rubriek8",
       "conclusion": "Raadpleeg SDS rubriek 8 voor PBM-advies",
-      "obligation": "Er is risico op blootstelling. Raadpleeg sectie 8 van het SDS voor de specifiek aanbevolen PBM's voor deze stof.\nMogelijke PBM's afhankelijk van de stof (zie SDS): - Handschoenen: type afhankelijk van de stof (bijv. nitril, neopreen, butyl) - Oogbescherming: veiligheidsbril of spatbril - Ademhalingsbescherming: halfgelaatsmasker of volgelaatsmasker - Beschermende kleding: chemicaliënpak of beschermende overall\nControleer de PBM's op beschadigingen vóór gebruik.\n",
+      "obligation": "Er is risico op blootstelling. Raadpleeg sectie 8 van het SDS voor de specifiek aanbevolen PBM's voor deze stof.\nMogelijke PBM's afhankelijk van de stof (zie SDS): - Handschoenen: type afhankelijk van de stof (bijv. nitril, neopreen, butyl) - Oogbescherming: veiligheidsbril of spatbril - Ademhalingsbescherming: halfgelaatsmasker of volgelaatsmasker - Beschermende kleding: chemicali\u00ebnpak of beschermende overall\nControleer de PBM's op beschadigingen v\u00f3\u00f3r gebruik.\n",
       "sources": []
     },
     {
       "conclusionId": "bio",
       "conclusion": "Maatregelen voor biologische agentia vereist",
-      "obligation": "Bij het werken met biologische agentia (bloed, speeksel, schimmelvorming in waterrijk gebied, etc.) zijn de volgende beheersmaatregelen van toepassing:\n- Afdekkende kleding (laboratoriumjas, handschoenen, oogbescherming) - Vaccinatie indien van toepassing voor de specifieke biologische agens\nRaadpleeg de KAM-preventiemedewerker voor specifiek advies bij jouw situatie.\nControleer de PBM's op beschadigingen vóór gebruik.\n",
+      "obligation": "Bij het werken met biologische agentia (bloed, speeksel, schimmelvorming in waterrijk gebied, etc.) zijn de volgende beheersmaatregelen van toepassing:\n- Afdekkende kleding (laboratoriumjas, handschoenen, oogbescherming) - Vaccinatie indien van toepassing voor de specifieke biologische agens\nRaadpleeg de KAM-preventiemedewerker voor specifiek advies bij jouw situatie.\nControleer de PBM's op beschadigingen v\u00f3\u00f3r gebruik.\n",
       "sources": []
     },
     {
       "conclusionId": "geluid_advies",
       "conclusion": "Gebruik oordoppen of oorkappen",
-      "obligation": "Het geluidsniveau is hoger dan 80 dB. Het gebruik van gehoorbescherming wordt aanbevolen.\nAanbevolen PBM: - Oordoppen (wegwerp of herbruikbaar) - Oorkappen\nKies de gehoorbescherming die past bij de werkomgeving en het geluidskarakter.\nControleer de gehoorbescherming op beschadigingen vóór gebruik.\n",
+      "obligation": "Het geluidsniveau is hoger dan 80 dB. Het gebruik van gehoorbescherming wordt aanbevolen.\nAanbevolen PBM: - Oordoppen (wegwerp of herbruikbaar) - Oorkappen\nKies de gehoorbescherming die past bij de werkomgeving en het geluidskarakter.\nControleer de gehoorbescherming op beschadigingen v\u00f3\u00f3r gebruik.\n",
       "sources": []
     },
     {
       "conclusionId": "geluid_kam",
       "conclusion": "Vraag advies bij KAM centraal of preventiemedewerker",
-      "obligation": "Het geluidsniveau is hoger dan 85 dB én de blootstelling duurt langer dan 1 uur. Dit vereist een professionele beoordeling.\nActie vereist: - Neem contact op met KAM centraal of de preventiemedewerker voor\n  gepersonaliseerd PBM-advies.\n- Gebruik in de tussentijd gehoorbescherming (oordoppen of oorkappen).\nControleer de PBM's op beschadigingen vóór gebruik.\n",
+      "obligation": "Het geluidsniveau is hoger dan 85 dB \u00e9n de blootstelling duurt langer dan 1 uur. Dit vereist een professionele beoordeling.\nActie vereist: - Neem contact op met KAM centraal of de preventiemedewerker voor\n  gepersonaliseerd PBM-advies.\n- Gebruik in de tussentijd gehoorbescherming (oordoppen of oorkappen).\nControleer de PBM's op beschadigingen v\u00f3\u00f3r gebruik.\n",
       "sources": []
     },
     {
       "conclusionId": "esd_stop",
-      "conclusion": "Stop met werken – niet aan de ESD-voorwaarden voldaan",
+      "conclusion": "Stop met werken \u2013 niet aan de ESD-voorwaarden voldaan",
       "obligation": "Niet alle vereiste voorwaarden voor veilig ESD-werk zijn aanwezig. Zorg dat aan alle volgende voorwaarden is voldaan voordat je start:\n- ESD werkmat aanwezig - Geaard werkstation aanwezig - Luchtvochtigheid hoger dan 30%\nStart pas met de werkzaamheden zodra aan alle drie de voorwaarden is voldaan.\n",
       "sources": []
     },
     {
       "conclusionId": "esd_standaard",
       "conclusion": "ESD PBM voor standaard ESD-werk",
-      "obligation": "Vereiste PBM's voor standaard ESD-werk: - ESD polsband - Antistatische (hand)schoenen - Antistatische gebruiksartikelen (gereedschap, etc.)\nControleer de PBM's op beschadigingen vóór gebruik.\n",
+      "obligation": "Vereiste PBM's voor standaard ESD-werk: - ESD polsband - Antistatische (hand)schoenen - Antistatische gebruiksartikelen (gereedschap, etc.)\nControleer de PBM's op beschadigingen v\u00f3\u00f3r gebruik.\n",
       "sources": []
     },
     {
       "conclusionId": "esd_verplaatsen",
       "conclusion": "ESD PBM voor verplaatsen van componenten",
-      "obligation": "Vereiste PBM voor het verplaatsen van componenten: - ESD handschoenen\nControleer de handschoenen op beschadigingen vóór gebruik.\n",
+      "obligation": "Vereiste PBM voor het verplaatsen van componenten: - ESD handschoenen\nControleer de handschoenen op beschadigingen v\u00f3\u00f3r gebruik.\n",
       "sources": []
     },
     {
       "conclusionId": "esd_cleanroom",
       "conclusion": "ESD PBM voor cleanroom elektronica",
-      "obligation": "Vereiste PBM's voor cleanroom elektronica: - ESD kleding - ESD schoenen\nControleer de PBM's op beschadigingen vóór gebruik.\n",
+      "obligation": "Vereiste PBM's voor cleanroom elektronica: - ESD kleding - ESD schoenen\nControleer de PBM's op beschadigingen v\u00f3\u00f3r gebruik.\n",
       "sources": []
     },
     {
       "conclusionId": "lichtbron_pbm",
       "conclusion": "Aanvullende PBM's vereist voor externe lichtbron",
-      "obligation": "Je werkt met een externe lichtbron (UV, infrarood of zichtbaar licht). Raadpleeg de interne richtlijn voor lichtbronnen voor het specifieke PBM-advies op basis van het type straling en de intensiteit.\nNeem contact op met de KAM-preventiemedewerker voor een volledig PBM-advies.\nControleer de PBM's op beschadigingen vóór gebruik.\n",
+      "obligation": "Je werkt met een externe lichtbron (UV, infrarood of zichtbaar licht). Raadpleeg de interne richtlijn voor lichtbronnen voor het specifieke PBM-advies op basis van het type straling en de intensiteit.\nNeem contact op met de KAM-preventiemedewerker voor een volledig PBM-advies.\nControleer de PBM's op beschadigingen v\u00f3\u00f3r gebruik.\n",
       "sources": []
     },
     {
       "conclusionId": "scherp_pbm",
       "conclusion": "Gebruik snijvaste handschoenen",
-      "obligation": "Bij het werken met scherpe objecten zijn snijvaste handschoenen verplicht.\nVereiste PBM: - Snijvaste handschoenen (minimaal niveau 2 snijbestendigheid conform EN 388)\nControleer de handschoenen op beschadigingen vóór gebruik.\n",
+      "obligation": "Bij het werken met scherpe objecten zijn snijvaste handschoenen verplicht.\nVereiste PBM: - Snijvaste handschoenen (minimaal niveau 2 snijbestendigheid conform EN 388)\nControleer de handschoenen op beschadigingen v\u00f3\u00f3r gebruik.\n",
       "sources": []
     }
   ]

@@ -114,6 +114,7 @@ function back() {
         :question="currentQuestion.question"
         :explanation="currentQuestion.explanation"
         :answers="currentQuestion.answers"
+        :sources="currentQuestion.sources"
         :is-first="isFirst"
         @answered="answer"
         @back="back"

@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import type { Answer } from '@/models/DecisionTree'
+import type { Answer, Source } from '@/models/DecisionTree'
 
 interface Props {
   questionId: string
   question: string
   explanation: string
   answers: Answer[]
+  sources?: Source[]
   isFirst: boolean
 }
 
@@ -65,6 +66,17 @@ defineEmits<{
           </div>
         </div>
       </fieldset>
+
+        <!-- Sources -->
+        <div v-if="sources && sources.length > 0" style="margin-top: 1.5rem;">
+          <p class="utrecht-paragraph rvo-text--sm"><strong>Bron:</strong>
+            <span v-for="(src, index) in sources" :key="index">
+              <a v-if="src.url" :href="src.url" target="_blank" rel="noopener noreferrer" class="rvo-link">{{ src.source }}</a>
+              <span v-else>{{ src.source }}</span>
+              <span v-if="index < sources.length - 1">, </span>
+            </span>
+          </p>
+        </div>
 
       <!-- Navigation -->
       <div
