@@ -10,7 +10,7 @@ defineProps<Props>()
 
 <template>
   <div>
-    <ul>
+    <ul class="no-list">
       <li v-for="(source, index) in sources" :key="index" class="text-sm flex items-center">
         <span
           class="utrecht-icon rvo-icon rvo-icon-info rvo-icon--xl rvo-status-icon-info"
