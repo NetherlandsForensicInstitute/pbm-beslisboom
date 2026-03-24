@@ -63,7 +63,9 @@ questions:
       - Huidcontact of oogcontact met de stof
       - Inhalatie van dampen, nevels of stofdeeltjes
       - Orale inname via besmette handen of oppervlakken
-      sources: [https://www.nlarbeidsinspectie.nl/onderwerpen/blootstelling-gevaarlijke-stoffen]
+       sources: 
+       - source: "arbeidsinspectie"
+         url: "https://www.nlarbeidsinspectie.nl/onderwerpen/blootstelling-gevaarlijke-stoffen"
     category: gevaarlijke_stoffen
     answers:
       - answer: "Nee"
@@ -204,7 +206,7 @@ conclusions:
   - conclusionId: "bio"
     conclusion: "Maatregelen voor biologische agentia vereist"
     obligation: >
-      Bij het werken met biologische agentia (zoals micro-organismen, lichaamsvloeistoffen zoals bloed en speeksel, en schimmels die infecties kunnen veroorzaken of toxines kunnen produceren) moeten passende beheersmaatregelen worden genomen.
+      Bij het werken met biologische agentia (zoals micro-organismen, lichaamsvloeistoffen zoals bloed en speeksel, en schimmels die infecties kunnen veroorzaken of toxines kunnen produceren) moeten passende beheersmaatregelen worden genomen
 
       - Afdekkende kleding (laboratoriumjas, handschoenen, oogbescherming)
       - Vaccinatie indien van toepassing voor de specifieke biologische agens
