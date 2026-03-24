@@ -173,7 +173,7 @@ conclusions:
       1. Zoek de SDS op in Sofos360, indien niet ingevoerd opzoeken in Chemwatch of opvragen bij leverancier.
       2. Lees rubriek 8 (Maatregelen ter beheersing van blootstelling/PBM) zorgvuldig door.
       3. Start pas met de werkzaamheden nadat je het SDS hebt gelezen en de juiste PBM's hebt geselecteerd.
-    sources: [https://inception.nfi.minjus.nl/index.jsp?bookmark=ID%3D1000131]
+    sources: []
 
   - conclusionId: "sds_niet_gelezen"
     conclusion: "Eerst het SDS lezen vóór je start"
