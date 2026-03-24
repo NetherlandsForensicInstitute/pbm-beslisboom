@@ -7,10 +7,13 @@ questions:
     question: "Voor welk scenario wordt een PBM gezocht?"
     explanation: >
       Selecteer het scenario dat van toepassing is op jouw werkzaamheden.
-      Let op: voor het betreden van een laboratorium zijn standaard al verplicht:
-      labjas, gesloten schoenen, haren vast (bij schouderlengtes) en bedekkende kleding.
+      Let op: voor het betreden van een laboratorium zijn standaard al verplicht, de verplichte PBM's zijn per laboratorium via veiligheidssignaleringstickers aangegeven op de deur.
+      Voorbeelden hiervan zijn labjas, gesloten schoenen, haren vast (bij schouderlengtes) en bedekkende kleding.
       Deze beslisboom bepaalt welke aanvullende PBM's nodig zijn.
     category: voorbereiding
+    sources:
+      - source: "Nederlands Forensisch Instituut (NFI)"
+        url: "https://www.nfi.nl"
     answers:
       - answer: "Gevaarlijke stoffen (chemicaliën / nevenproducten)"
         nextQuestionId: "1"
@@ -170,7 +173,7 @@ conclusions:
       1. Zoek de SDS op in Sofos360, indien niet ingevoerd opzoeken in Chemwatch of opvragen bij leverancier.
       2. Lees rubriek 8 (Maatregelen ter beheersing van blootstelling/PBM) zorgvuldig door.
       3. Start pas met de werkzaamheden nadat je het SDS hebt gelezen en de juiste PBM's hebt geselecteerd.
-    sources: []
+    sources: [https://inception.nfi.minjus.nl/index.jsp?bookmark=ID%3D1000131]
 
   - conclusionId: "sds_niet_gelezen"
     conclusion: "Eerst het SDS lezen vóór je start"

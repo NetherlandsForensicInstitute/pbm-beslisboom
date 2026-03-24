@@ -11,14 +11,12 @@ const emit = defineEmits(['reset'])
 
 <template>
   <header>
+    <BetaversionLabel />
     <div class="rvo-layout-column">
       <div class="rvo-topnav__background rvo-topnav__background--horizontal-rule">
         <div class="rvo-max-width-layout rvo-max-width-layout--md rvo-max-width-layout-inline-padding--sm">
           <nav class="rvo-topnav rvo-topnav--lg">
             <ul class="rvo-topnav__list">
-              <li class="rvo-topnav__item" style="margin-right: auto">
-                <BetaversionLabel />
-              </li>
               <li v-if="!isHome" class="rvo-topnav__item">
                 <a
                   class="rvo-link rvo-topnav__link rvo-link--logoblauw"
